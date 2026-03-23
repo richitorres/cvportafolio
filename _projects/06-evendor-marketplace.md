@@ -2,7 +2,7 @@
 title: "Evendor Marketplace"
 tags: ["WordPress", "WooCommerce", "Conekta", "PHP"]
 link: "https://evendor.mx/"
-image:
+image: https://evendor.mx/wp-content/uploads/2021/04/evendor-horizontal-color.png
 order: 6
 ---
 

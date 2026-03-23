@@ -139,10 +139,7 @@ experience:
     period: "Jun. 2016 — Nov. 2016"
     description: "Gestión de infraestructura tecnológica en empresa del sector hotelero."
 
-  - role: "Practicante de Sistemas"
-    company: "Hotel Holiday Inn Mérida"
-    period: "Ago. 2015 — Dic. 2015"
-    description: "Proyecto de auditoría, backup y recuperación de información bajo la norma ISO/IEC 27001."
+  
 
 # Educación
 education:

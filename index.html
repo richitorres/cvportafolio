@@ -111,7 +111,11 @@ title: Ricardo Torres | Desarrollador Web
       <article class="project-card reveal">
         <div class="project-thumb">
           {% if project.image %}
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="width:100%;height:100%;object-fit:cover;">
+          {% if project.image contains "http" %}
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+          {% else %}
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+          {% endif %}
           {% else %}
           <span class="project-thumb-placeholder">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
           {% endif %}
