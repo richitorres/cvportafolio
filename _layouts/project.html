@@ -9,6 +9,16 @@ layout: default
       Volver a proyectos
     </a>
 
+    {% if page.image %}
+    <div class="project-detail-thumb">
+      {% if page.image contains "http" %}
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+      {% else %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+      {% endif %}
+    </div>
+    {% endif %}
+
     <div class="section-label">Proyecto</div>
     <h1 class="section-title">{{ page.title }}</h1>
 
